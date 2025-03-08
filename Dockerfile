@@ -1,4 +1,4 @@
-FROM rust:1.84 AS build
+FROM rust:1.85 AS build
 
 RUN USER=root cargo new --bin spacestate
 WORKDIR /spacestate
